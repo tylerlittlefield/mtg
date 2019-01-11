@@ -58,4 +58,4 @@ mtg("formats", quiet = TRUE)
 
 ## Acknowledgements
 
-Artwork: _Unclaimed Territory_ by [Dimitar Marinski](https://www.artstation.com/dimarinski).
+* Artwork: _Unclaimed Territory_ by [Dimitar Marinski](https://www.artstation.com/dimarinski).
