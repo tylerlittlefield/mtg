@@ -1,0 +1,60 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+# mtg
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+```{r readme image, echo=FALSE}
+knitr::include_graphics("man/figures/dimitar-marinski-dimitar-marinski-unclaimed-territory.jpg")
+```
+
+<div style="text-align: right"> 
+  <sup>
+_Unclaimed Territory_ by [Dimitar Marinski](https://www.artstation.com/dimarinski)
+  </sup>
+</div>
+
+Minimalistic client to access the [Magic: The Gathering API](https://docs.magicthegathering.io/).
+
+## Installation
+
+You can install from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("tyluRp/mtg")
+```
+## Example
+
+Use `mtg` to access all available endpoints:
+
+```{r example 1}
+library(mtg)
+
+mtg("formats")
+```
+
+Additionally, we can print the response as JSON thanks to the [jsonlite](https://github.com/jeroen/jsonlite) package:
+
+```{r example 2}
+mtg("formats", json = TRUE)
+```
+
+Response information can be suppressed with `quiet = TRUE`:
+
+```{r example 3}
+mtg("formats", quiet = TRUE)
+```
