@@ -9,13 +9,6 @@
 
 <img src="man/figures/dimitar-marinski-dimitar-marinski-unclaimed-territory.jpg" width="100%" />
 
-<div style="text-align: right">
-
-<sup> *Unclaimed Territory* by [Dimitar
-Marinski](https://www.artstation.com/dimarinski)</sup>
-
-</div>
-
 Minimalistic client to access the [Magic: The Gathering
 API](https://docs.magicthegathering.io/).
 
@@ -100,3 +93,8 @@ mtg("formats", quiet = TRUE)
 #> [11,] "Standard" 
 #> [12,] "Vintage"
 ```
+
+## Acknowledgements
+
+Artwork: *Unclaimed Territory* by [Dimitar
+Marinski](https://www.artstation.com/dimarinski).
