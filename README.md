@@ -12,7 +12,7 @@
 <div style="text-align: right">
 
 <sup> *Unclaimed Territory* by [Dimitar
-Marinski](https://www.artstation.com/dimarinski) </sup>
+Marinski](https://www.artstation.com/dimarinski)</sup>
 
 </div>
 

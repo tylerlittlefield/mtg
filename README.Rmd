@@ -21,11 +21,8 @@ knitr::opts_chunk$set(
 knitr::include_graphics("man/figures/dimitar-marinski-dimitar-marinski-unclaimed-territory.jpg")
 ```
 
-<div style="text-align: right"> 
-  <sup>
-_Unclaimed Territory_ by [Dimitar Marinski](https://www.artstation.com/dimarinski)
-  </sup>
-</div>
+<div style="text-align: right"><sup>
+_Unclaimed Territory_ by [Dimitar Marinski](https://www.artstation.com/dimarinski)</sup></div>
 
 Minimalistic client to access the [Magic: The Gathering API](https://docs.magicthegathering.io/).
 
