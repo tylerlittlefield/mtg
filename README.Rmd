@@ -34,7 +34,7 @@ You can install from [GitHub](https://github.com/) with:
 # install.packages("devtools")
 devtools::install_github("tyluRp/mtg")
 ```
-## Example
+## Examples
 
 Use `mtg` to access all available endpoints:
 
@@ -42,6 +42,8 @@ Use `mtg` to access all available endpoints:
 library(mtg)
 
 mtg("formats")
+
+str(mtg("cards"), max.level = 2)
 ```
 
 Additionally, we can print the response as JSON thanks to the [jsonlite](https://github.com/jeroen/jsonlite) package:

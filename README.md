@@ -27,7 +27,7 @@ You can install from [GitHub](https://github.com/) with:
 devtools::install_github("tyluRp/mtg")
 ```
 
-## Example
+## Examples
 
 Use `mtg` to access all available endpoints:
 
@@ -52,6 +52,43 @@ mtg("formats")
 #> [10,] "Penny"    
 #> [11,] "Standard" 
 #> [12,] "Vintage"
+
+str(mtg("cards"), max.level = 2)
+#> ✔ Request: https://api.magicthegathering.io/v1/cards
+#> ✔ Status: 200
+#> ✔ Content-Type: application/json; charset=utf-8
+#> List of 1
+#>  $ cards:'data.frame':   100 obs. of  30 variables:
+#>   ..$ name         :List of 100
+#>   ..$ manaCost     :List of 100
+#>   ..$ cmc          :List of 100
+#>   ..$ colors       :List of 100
+#>   ..$ colorIdentity:List of 100
+#>   ..$ type         :List of 100
+#>   ..$ supertypes   :List of 100
+#>   ..$ types        :List of 100
+#>   ..$ subtypes     :List of 100
+#>   ..$ rarity       :List of 100
+#>   ..$ set          :List of 100
+#>   ..$ setName      :List of 100
+#>   ..$ text         :List of 100
+#>   ..$ artist       :List of 100
+#>   ..$ number       :List of 100
+#>   ..$ power        :List of 100
+#>   ..$ toughness    :List of 100
+#>   ..$ layout       :List of 100
+#>   ..$ multiverseid :List of 100
+#>   ..$ imageUrl     :List of 100
+#>   ..$ variations   :List of 100
+#>   ..$ rulings      :List of 100
+#>   ..$ foreignNames :List of 100
+#>   ..$ printings    :List of 100
+#>   ..$ originalText :List of 100
+#>   ..$ originalType :List of 100
+#>   ..$ legalities   :List of 100
+#>   ..$ id           :List of 100
+#>   ..$ flavor       :List of 100
+#>   ..$ names        :List of 100
 ```
 
 Additionally, we can print the response as JSON thanks to the
